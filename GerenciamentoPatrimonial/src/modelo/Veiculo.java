@@ -1,15 +1,34 @@
 package modelo;
 
+/**
+ * Subclasse de ItemDePatrimonio, representa um item do tipo Veiculo
+ * contendo informacoes especificas como cor, modelo e fabricante
+ * @author Joao Artur Leles Ferreira Pinheiro e Weverton Rodrigues da Costa Silva
+ * @since 2023
+ * @version 1.0
+ */
+
 public class Veiculo extends ItemDePatrimonio {
 	private String cor;
 	private String modelo;
 	private String fabricante;
 	
 	public Veiculo() {
-		super();
 	}
 	
-	public Veiculo(String nome, String cor, String modelo, String fabricante, double valor, int quantidade) {
+	/**
+	 * Construtor Veiculo
+	 * @param nome
+	 * @param cor
+	 * @param modelo
+	 * @param fabricante
+	 * @param valor
+	 * @param quantidade
+	 */
+	
+	public Veiculo(String nome, String cor, String modelo,
+				   String fabricante, double valor, int quantidade) {
+		super();
 		this.nome = nome;
 		this.cor = cor;
 		this.modelo = modelo;
@@ -44,7 +63,8 @@ public class Veiculo extends ItemDePatrimonio {
 
 	@Override
 	public String toString() {
-		return "\n -Veiculo-" + "\n Item: " + nome + "\n Cor: " + cor + "\n Modelo: " + modelo + 
-				"\n Fabricante: " + fabricante + "\n Valor: R$ " + valor + "\n Quantidade: " + quantidade;
+		return "\n -Veiculo-" + "\n Item: " + nome + "\n Cor: " + cor +
+			   "\n Modelo: " + modelo + "\n Fabricante: " + fabricante +
+			   "\n Valor: R$ " + valor + "\n Quantidade: " + quantidade;
 	}
 }
