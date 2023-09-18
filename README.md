@@ -1,4 +1,6 @@
 # Gerenciamento Patrimonial
+Projeto desenvolvido com intuito de aplicar o aprendizado de Orientação a Objetos,
+implementando um sistema que traga uma melhor organização de patrimônios de uma empresa e suas filiais.
 
 ## Funcionalidades
 * CRUD de filiais
@@ -8,7 +10,7 @@
 * busca por um item dado seu nome
 
 ## Tecnologias Utilizadas
-* [Java](): linguagem de programação
-* [Swing](): biblioteca para o desenvolvimento de interface gráfica
-* [JDK](): conjunto de ferramentas para criação de sistemas Java
-* [Eclipse](): IDE para o desenvolvimento Java
+* [Java](https://www.java.com/pt-BR/): linguagem de programação
+* [Swing](https://docs.oracle.com/javase/8/docs/api/index.html?javax/swing/package-summary.html): biblioteca para o desenvolvimento de interface gráfica
+* [JDK](https://www.oracle.com/br/java/technologies/downloads/): conjunto de ferramentas para criação de sistemas Java
+* [Eclipse](https://eclipseide.org/): IDE para o desenvolvimento Java
