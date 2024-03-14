@@ -1,5 +1,5 @@
 # Gerenciamento Patrimonial
-Projeto desenvolvido com intuito de aplicar o aprendizado de Orientação a Objetos,
+Projeto desenvolvido com intuito de aplicar o aprendizado obtido na disciplina de Orientação a Objetos,
 implementando um sistema que traga uma melhor organização de patrimônios de uma empresa e suas filiais.
 
 ## Funcionalidades
